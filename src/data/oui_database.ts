@@ -1,0 +1,104 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { OUIEntry } from '../types';
+
+export const INITIAL_OUI_DATABASE: OUIEntry[] = [
+  // Apple
+  { oui: "00:1C:B3", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "Consumer electronics, smartphones, tablets, and computers." },
+  { oui: "00:25:00", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "Consumer electronics and computing devices." },
+  { oui: "00:17:F2", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "Consumer electronics and networking products." },
+  { oui: "3C:D0:F8", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "Consumer electronics (iPhones, Apple Watch)." },
+  { oui: "F0:18:98", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "MacBook and iMac networking interfaces." },
+  { oui: "AC:BC:32", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "MacBook, iPad, and iPhone Wi-Fi chips." },
+  { oui: "00:03:93", vendor: "Apple Inc.", manufacturer: "Apple, Inc.", country: "United States", address: "1 Infinite Loop, Cupertino, CA 95014", orgType: "IEEE MA-L", description: "Legacy Apple products and Macintosh ethernet adapters." },
+
+  // Cisco
+  { oui: "00:00:0C", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "Corporate enterprise routers, switches, and core networking equipment." },
+  { oui: "00:01:42", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "Enterprise Ethernet and switching modules." },
+  { oui: "00:01:C9", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "IP phones and VoIP gateways." },
+  { oui: "00:1E:13", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "Catalyst enterprise switches." },
+  { oui: "00:1E:49", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "Nexus data center switches and line cards." },
+  { oui: "C4:71:FE", vendor: "Cisco Systems, Inc.", manufacturer: "Cisco Systems", country: "United States", address: "170 West Tasman Drive, San Jose, CA 95134", orgType: "IEEE MA-L", description: "Cisco Meraki cloud-managed access points and security appliances." },
+
+  // Microsoft
+  { oui: "00:03:FF", vendor: "Microsoft Corporation", manufacturer: "Microsoft Corporation", country: "United States", address: "One Microsoft Way, Redmond, WA 98052", orgType: "IEEE MA-L", description: "Xbox console networks, Surface devices, and virtual networking adapters." },
+  { oui: "00:15:5D", vendor: "Microsoft Corporation", manufacturer: "Microsoft Hyper-V", country: "United States", address: "One Microsoft Way, Redmond, WA 98052", orgType: "IEEE MA-L", description: "Hyper-V virtual machine NICs and virtual network switches." },
+  { oui: "00:50:F2", vendor: "Microsoft Corporation", manufacturer: "Microsoft Broadband", country: "United States", address: "One Microsoft Way, Redmond, WA 98052", orgType: "IEEE MA-L", description: "Broadband hardware and wireless accessories." },
+  { oui: "48:5F:99", vendor: "Microsoft Corporation", manufacturer: "Microsoft Mobile", country: "United States", address: "One Microsoft Way, Redmond, WA 98052", orgType: "IEEE MA-L", description: "Microsoft Surface notebooks and portable accessories." },
+
+  // Intel
+  { oui: "00:03:47", vendor: "Intel Corporation", manufacturer: "Intel Corporation", country: "United States", address: "2200 Mission College Blvd, Santa Clara, CA 95054", orgType: "IEEE MA-L", description: "Intel Ethernet server network adapters." },
+  { oui: "00:1F:3C", vendor: "Intel Corporation", manufacturer: "Intel Centrino", country: "United States", address: "2200 Mission College Blvd, Santa Clara, CA 95054", orgType: "IEEE MA-L", description: "Centrino and Intel Core laptop Wi-Fi interfaces." },
+  { oui: "A0:C5:89", vendor: "Intel Corporation", manufacturer: "Intel Wireless-AC", country: "United States", address: "2200 Mission College Blvd, Santa Clara, CA 95054", orgType: "IEEE MA-L", description: "Dual-band wireless network interfaces and Bluetooth chips." },
+  { oui: "FC:AA:14", vendor: "Intel Corporation", manufacturer: "Intel AX200 Series", country: "United States", address: "2200 Mission College Blvd, Santa Clara, CA 95054", orgType: "IEEE MA-L", description: "Wi-Fi 6 and Wi-Fi 6E high-performance client adapters." },
+
+  // Samsung
+  { oui: "00:00:F0", vendor: "Samsung Electronics", manufacturer: "Samsung Electronics Co.,Ltd", country: "South Korea", address: "Suwon-si, Gyeonggi-do", orgType: "IEEE MA-L", description: "Samsung Smart TVs, appliances, and legacy handsets." },
+  { oui: "1C:62:B8", vendor: "Samsung Electronics", manufacturer: "Samsung Galaxy Division", country: "South Korea", address: "Suwon-si, Gyeonggi-do", orgType: "IEEE MA-L", description: "Samsung Galaxy series mobile phones and tablets." },
+  { oui: "5C:F8:A1", vendor: "Samsung Electronics", manufacturer: "Samsung Wi-Fi Modules", country: "South Korea", address: "Suwon-si, Gyeonggi-do", orgType: "IEEE MA-L", description: "Smart wearables, Galaxy Watch, and home IoT hubs." },
+
+  // Dell
+  { oui: "00:06:5B", vendor: "Dell Inc.", manufacturer: "Dell Inc.", country: "United States", address: "One Dell Way, Round Rock, TX 78682", orgType: "IEEE MA-L", description: "Dell PowerEdge server Ethernet adapters and enterprise hardware." },
+  { oui: "00:14:22", vendor: "Dell Inc.", manufacturer: "Dell Laptops", country: "United States", address: "One Dell Way, Round Rock, TX 78682", orgType: "IEEE MA-L", description: "Dell Latitude and OptiPlex workstation network controllers." },
+  { oui: "D4:BE:D9", vendor: "Dell Inc.", manufacturer: "Dell Precision", country: "United States", address: "One Dell Way, Round Rock, TX 78682", orgType: "IEEE MA-L", description: "Dell Precision workstations and Inspiron consumer laptops." },
+
+  // HP
+  { oui: "00:08:02", vendor: "HP Inc.", manufacturer: "Hewlett-Packard", country: "United States", address: "1501 Page Mill Rd, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "HP LaserJet printers and corporate workstation ethernet ports." },
+  { oui: "00:17:08", vendor: "HP Inc.", manufacturer: "HP Enterprise", country: "United States", address: "1501 Page Mill Rd, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "HP ProLiant servers and enterprise-class switches." },
+  { oui: "3C:A8:2A", vendor: "HP Inc.", manufacturer: "HP EliteBook", country: "United States", address: "1501 Page Mill Rd, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "HP EliteBook notebooks and Pavilion desktop systems." },
+
+  // Google
+  { oui: "00:1A:11", vendor: "Google LLC", manufacturer: "Google Nest", country: "United States", address: "1600 Amphitheatre Pkwy, Mountain View, CA 94043", orgType: "IEEE MA-L", description: "Google Nest, Chromecast, and smart home automation equipment." },
+  { oui: "3C:5A:B4", vendor: "Google LLC", manufacturer: "Google Pixel Division", country: "United States", address: "1600 Amphitheatre Pkwy, Mountain View, CA 94043", orgType: "IEEE MA-L", description: "Google Pixel smartphones, Pixel Tablet, and Pixel Buds." },
+  { oui: "D8:24:BD", vendor: "Google LLC", manufacturer: "Google Fiber", country: "United States", address: "1600 Amphitheatre Pkwy, Mountain View, CA 94043", orgType: "IEEE MA-L", description: "Google Fiber network boxes and server infrastructure NICs." },
+
+  // Amazon
+  { oui: "00:FC:8B", vendor: "Amazon Technologies Inc.", manufacturer: "Amazon Echo", country: "United States", address: "410 Terry Ave N, Seattle, WA 98109", orgType: "IEEE MA-L", description: "Amazon Echo smart speakers, Fire TV sticks, and Kindle devices." },
+  { oui: "50:DC:E7", vendor: "Amazon Technologies Inc.", manufacturer: "Amazon Ring", country: "United States", address: "410 Terry Ave N, Seattle, WA 98109", orgType: "IEEE MA-L", description: "Ring smart doorbells, security cameras, and home safety IoT." },
+
+  // Tesla
+  { oui: "48:A2:24", vendor: "Tesla Motors, Inc.", manufacturer: "Tesla Motors", country: "United States", address: "3500 Deer Creek Road, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "Tesla vehicle telematics units, infotainment screens, and Wi-Fi receivers." },
+  { oui: "98:ED:5C", vendor: "Tesla Motors, Inc.", manufacturer: "Tesla Motors", country: "United States", address: "3500 Deer Creek Road, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "Tesla Wall Connectors and home energy gateway devices." },
+
+  // VMware / VirtualBox / Docker Virtual NICs
+  { oui: "00:50:56", vendor: "VMware, Inc.", manufacturer: "VMware Virtual NIC", country: "United States", address: "3401 Hillview Ave, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "VMware ESXi and Workstation virtual machine network interface cards." },
+  { oui: "00:0C:29", vendor: "VMware, Inc.", manufacturer: "VMware Virtual Host", country: "United States", address: "3401 Hillview Ave, Palo Alto, CA 94304", orgType: "IEEE MA-L", description: "Auto-generated MAC prefix for VMware guest OS controllers." },
+  { oui: "08:00:27", vendor: "Oracle Corporation", manufacturer: "VirtualBox VM", country: "United States", address: "500 Oracle Parkway, Redwood City, CA 94065", orgType: "IEEE MA-L", description: "Oracle VM VirtualBox virtual machine network adapter (host-only/NAT)." },
+  { oui: "02:42:AC", vendor: "Docker, Inc.", manufacturer: "Docker Virtual Bridge", country: "United States", address: "Virtual Bridge Interface", orgType: "Private", description: "Docker internal bridge networking (docker0 interface IP/MAC translation)." },
+
+  // Huawei
+  { oui: "00:18:82", vendor: "Huawei Technologies Co., Ltd.", manufacturer: "Huawei", country: "China", address: "Huawei Industrial Base, Shenzhen", orgType: "IEEE MA-L", description: "Carrier-grade routers, corporate telecom switches, and networks." },
+  { oui: "AC:85:3D", vendor: "Huawei Technologies Co., Ltd.", manufacturer: "Huawei Consumer", country: "China", address: "Huawei Industrial Base, Shenzhen", orgType: "IEEE MA-L", description: "Huawei MateBook laptops, Mate smartphones, and smart screens." },
+
+  // Xiaomi
+  { oui: "28:C2:DD", vendor: "Xiaomi Communications Co., Ltd.", manufacturer: "Xiaomi Mi", country: "China", address: "Haidian District, Beijing", orgType: "IEEE MA-L", description: "Xiaomi Mi phones, Redmi accessories, and smart IoT home products." },
+  { oui: "64:09:80", vendor: "Xiaomi Communications Co., Ltd.", manufacturer: "Xiaomi Smart Home", country: "China", address: "Haidian District, Beijing", orgType: "IEEE MA-L", description: "Xiaomi smart vacuums, lighting, routers, and cameras." },
+
+  // Realtek
+  { oui: "00:E0:4C", vendor: "Realtek Semiconductor Corp.", manufacturer: "Realtek", country: "Taiwan", address: "Hsinchu Science Park, Hsinchu", orgType: "IEEE MA-L", description: "High-volume onboard Ethernet and Wi-Fi chips for client motherboards." },
+
+  // TP-Link
+  { oui: "00:14:78", vendor: "TP-Link Technologies Co., Ltd.", manufacturer: "TP-Link", country: "China", address: "Nanshan District, Shenzhen", orgType: "IEEE MA-L", description: "TP-Link consumer Wi-Fi routers, network expanders, and smart plugs." },
+  { oui: "BC:46:99", vendor: "TP-Link Technologies Co., Ltd.", manufacturer: "TP-Link SOHO", country: "China", address: "Nanshan District, Shenzhen", orgType: "IEEE MA-L", description: "TP-Link Deco mesh systems and Archer series gigabit routers." },
+
+  // Sony
+  { oui: "00:1D:BA", vendor: "Sony Interactive Entertainment", manufacturer: "Sony PlayStation", country: "Japan", address: "Minato-ku, Tokyo", orgType: "IEEE MA-L", description: "Sony PlayStation 4, PlayStation 5, and VR entertainment console networks." },
+
+  // LG
+  { oui: "00:1E:75", vendor: "LG Electronics", manufacturer: "LG WebOS TV", country: "South Korea", address: "Yeouido-dong, Seoul", orgType: "IEEE MA-L", description: "LG Smart TVs, OLED displays, and network appliances." },
+
+  // NVIDIA
+  { oui: "00:04:4B", vendor: "NVIDIA Corporation", manufacturer: "NVIDIA Tegra", country: "United States", address: "2788 San Tomas Expy, Santa Clara, CA 95051", orgType: "IEEE MA-L", description: "NVIDIA Shield TV, Jetson developer kits, and computing rigs." },
+
+  // AMD
+  { oui: "00:01:80", vendor: "Advanced Micro Devices", manufacturer: "AMD", country: "United States", address: "2485 Augustine Dr, Santa Clara, CA 95054", orgType: "IEEE MA-L", description: "AMD corporate enterprise server boards and network processors." },
+
+  // Lenovo
+  { oui: "00:1A:80", vendor: "Lenovo Mobile Communication Co.", manufacturer: "Lenovo", country: "China", address: "Haidian District, Beijing", orgType: "IEEE MA-L", description: "ThinkPad laptops, Lenovo IdeaCentre desktops, and smart tablets." },
+
+  // ASUS
+  { oui: "AC:22:0B", vendor: "ASUSTek Computer Inc.", manufacturer: "ASUS ROG", country: "Taiwan", address: "Beitou District, Taipei", orgType: "IEEE MA-L", description: "ASUS Republic of Gamers gaming laptops, motherboards, and ZenWiFi routers." }
+];
