@@ -1,0 +1,6 @@
+{
+  "name": "MAC and Vendor Lookup Tool",
+  "description": "A premium full-stack cybersecurity utility for OUI and MAC address vendor lookups, featuring a large local database, hybrid live API fallbacks, interactive networking statistics, and an administrative control panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
