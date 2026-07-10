@@ -1,0 +1,174 @@
+{
+  "searchHistory": [
+    {
+      "id": "el6joiizo",
+      "mac": "3C:D0:F8:87:BA:F6",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-10T08:17:30.529Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "3w373jfa6",
+      "mac": "00:0A:27:00:00:00",
+      "vendor": "Apple, Inc.",
+      "timestamp": "2026-07-09T18:10:06.952Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "1lq01vy57",
+      "mac": "00:17:F2:24:04:8A",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-09T14:01:27.443Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "28dp7zp8v",
+      "mac": "00:0A:27:00:00:00",
+      "vendor": "Apple, Inc.",
+      "timestamp": "2026-07-09T13:43:53.783Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "a81n8yzmt",
+      "mac": "00:17:12:32:21:23",
+      "vendor": "ISCO International",
+      "timestamp": "2026-07-09T07:53:23.135Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "k3d5u18yj",
+      "mac": "00:17:12:32:21:23",
+      "vendor": "ISCO International",
+      "timestamp": "2026-07-08T19:52:38.699Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "hi29si9xr",
+      "mac": "00:0A:27:00:00:00",
+      "vendor": "Apple, Inc.",
+      "timestamp": "2026-07-08T19:52:31.623Z",
+      "databaseMatch": "Live API",
+      "isFavorite": false
+    },
+    {
+      "id": "goxsdjahs",
+      "mac": "00:1C:B3:09:85:2E",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-08T16:41:18.301Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "tsg6u4sfc",
+      "mac": "00:17:12:32:21:23",
+      "vendor": "ISCO International",
+      "timestamp": "2026-07-08T16:38:35.972Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "fufek7n4g",
+      "mac": "00:17:12:32:21:23",
+      "vendor": "ISCO International",
+      "timestamp": "2026-07-08T16:36:40.727Z",
+      "databaseMatch": "Live API",
+      "isFavorite": false
+    },
+    {
+      "id": "ins273uhk",
+      "mac": "00:17:F2:24:04:8A",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-08T16:32:48.786Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "ja3f36ew3",
+      "mac": "08:60:6E:12:34:56",
+      "vendor": "ASUSTek COMPUTER INC.",
+      "timestamp": "2026-07-08T09:25:00.553Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "9b2vx8tp8",
+      "mac": "00:17:F2:24:04:8A",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-08T07:03:39.823Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "xgmzglcpk",
+      "mac": "00:13:E8:00:00:00",
+      "vendor": "Intel Corporate",
+      "timestamp": "2026-07-08T07:03:32.720Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "1uk1x5z6g",
+      "mac": "00:1E:75:02:44:D9",
+      "vendor": "LG Electronics",
+      "timestamp": "2026-07-08T07:03:06.461Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "om8fzz2fl",
+      "mac": "00:17:F2:24:04:8A",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-07T17:10:57.533Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    },
+    {
+      "id": "mg9q5hlxn",
+      "mac": "08:60:6E:12:34:56",
+      "vendor": "ASUSTek COMPUTER INC.",
+      "timestamp": "2026-07-07T17:10:06.546Z",
+      "databaseMatch": "Live API",
+      "isFavorite": false
+    },
+    {
+      "id": "w1ph4jtko",
+      "mac": "00:13:E8:00:00:00",
+      "vendor": "Intel Corporate",
+      "timestamp": "2026-07-07T17:09:51.281Z",
+      "databaseMatch": "Live API",
+      "isFavorite": false
+    },
+    {
+      "id": "3x6frzcdo",
+      "mac": "00:17:F2:24:04:8A",
+      "vendor": "Apple Inc.",
+      "timestamp": "2026-07-07T17:09:40.947Z",
+      "databaseMatch": "Local Database",
+      "isFavorite": false
+    }
+  ],
+  "vendorCounts": {
+    "Apple Inc.": 7,
+    "Intel Corporate": 2,
+    "ASUSTek COMPUTER INC.": 2,
+    "LG Electronics": 1,
+    "ISCO International": 4,
+    "Apple, Inc.": 3
+  },
+  "countryCounts": {
+    "United States": 7,
+    "Unknown": 11,
+    "South Korea": 1
+  },
+  "macTypeCounts": {
+    "Unicast": 19,
+    "Multicast": 0,
+    "Broadcast": 0
+  }
+}
